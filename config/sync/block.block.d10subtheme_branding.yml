@@ -1,0 +1,25 @@
+uuid: b125ec74-4b0c-4d34-9352-4bdb977bd443
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d10subtheme
+_core:
+  default_config_hash: h0whHMyXL--dKN45Mc9JQYN26ZwOHeXtpAbKzvzUpTs
+id: d10subtheme_branding
+theme: d10subtheme
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,4 +1,5 @@
 global-styling:
   css:
     theme:
+      # ../../../themes/contrib/bootstrap5/css/style.css: {}
       css/style.css: {}

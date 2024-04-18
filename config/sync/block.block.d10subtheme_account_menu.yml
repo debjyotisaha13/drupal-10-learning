@@ -1,0 +1,27 @@
+uuid: a95daee1-15fc-4eeb-9e90-0d49fe9abf07
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - d10subtheme
+_core:
+  default_config_hash: ol-4YGb9-ABZSgO41dsBMRy0g_BTGvhILM2g24W3Kok
+id: d10subtheme_account_menu
+theme: d10subtheme
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

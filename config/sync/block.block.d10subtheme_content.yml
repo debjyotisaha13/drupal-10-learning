@@ -1,0 +1,22 @@
+uuid: f300c40a-4790-452d-b589-d7e209f5c467
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d10subtheme
+_core:
+  default_config_hash: czYnZ3lA5jvRdFVpEk-qFU-j-FqfGiKREKp8FrjsgTs
+id: d10subtheme_content
+theme: d10subtheme
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
